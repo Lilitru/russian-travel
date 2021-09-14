@@ -1,0 +1,29 @@
+.cover__photo{
+  background-image: url(../../../images/cover__background\ \(1\).png);
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  text-decoration: none;
+  position: relative;
+}
+.cover__photo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#2A2C2F ;
+  opacity: 0.3;
+  transition: opacity 1s ease-out;
+}
+.cover__photo:hover:after{
+  opacity: 0.8;
+}
+@media screen and (max-width:1279px) {
+  .cover__photo{
+    min-height: 640px;
+  }
+}
