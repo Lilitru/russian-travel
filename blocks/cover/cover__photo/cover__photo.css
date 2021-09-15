@@ -25,5 +25,18 @@
 @media screen and (max-width:1279px) {
   .cover__photo{
     min-height: 640px;
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width:1023px) {
+  .cover__photo{
+    min-height: 480px;
+    max-width: 768px;
+  }
+}
+@media screen and (max-width:767px) {
+  .cover__photo{
+    min-height: 200px;
+    max-width: 320px;
   }
 }
