@@ -1,4 +1,14 @@
 .header__lang-link_lang_en {
   text-decoration: none;
-  color:#FFFFFF;
+  margin: 46px 48px 0 0;
+}
+@media screen and (max-width:1023px) {
+  .header__lang-link_lang_en {
+    margin: 46px 24px 0 0;
+  }
+}
+@media screen and (max-width:767px) {
+  .header__lang-link_lang_en {
+    margin: 30px 16px 0 0;
+  }
 }
