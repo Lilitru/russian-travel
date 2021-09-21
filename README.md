@@ -9,5 +9,3 @@
 
 
 * [Ссылка на проект](https://lilitru.github.io/russian-travel/)
-
-
