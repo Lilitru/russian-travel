@@ -1,6 +1,6 @@
 .header__lang-list {
   display: flex;
-  align-items: flex-end;
+  /*align-items: flex-end;*/
   list-style: none;
   padding: 0;
   margin: 46px 0 0 0;
